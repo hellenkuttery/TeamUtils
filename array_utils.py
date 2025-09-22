@@ -10,3 +10,9 @@ def min_list(lst):
 def average_list(lst):
     return sum(lst) / len(lst)
 
+def avg_list(lst):
+    return sum(lst) / len(lst)
+
+def mini_list(lst):
+    return min(lst)
+
