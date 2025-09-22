@@ -1,5 +1,5 @@
 from arithmetic_utils import add, subtract, multiply, divide
-from string_utils import reverse_string, uppercase_string, lowercase_string, count_vowels
+from string_utils import reverse_string, to_uppercase, to_lowercase,capitalize_words,reverse_string
 from array_utils import sum_list, max_list, min_list, average_list
 from dict_utils import dict_keys, dict_values, dict_items, dict_merge
 
@@ -25,9 +25,9 @@ def main():
         elif choice == '2':
             s = input("Bir metin girin: ")
             reverse_string(s)
-            uppercase_string(s)
-            lowercase_string(s)
-            count_vowels(s)
+            to_uppercase(s)
+            to_lowercase(s)
+            capitalize_words(s)
 
         elif choice == '3':
             lst = list(map(float, input("Sayıları boşlukla girin: ").split()))
