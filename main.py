@@ -3,6 +3,7 @@ from string_utils import reverse_string, to_uppercase, to_lowercase,capitalize_w
 from array_utils import sum_list, max_list, min_list, average_list
 from dict_utils import dict_keys, dict_values, dict_items, dict_merge
 
+
 def main():
     print("=== Team Utils CLI ===")
     while True:
